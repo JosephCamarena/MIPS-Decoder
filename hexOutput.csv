@@ -1,0 +1,11 @@
+Machine code, opcode,  func,  Inst, Format,  rs,  rt,  rd, shamt,  Imm, address
+  0x24020004,  0x09,     -, addiu,    I,   0,   0,   -,   -,  0004,    -,
+  0x3C011001,  0x0f,     -,   lui,    I,   0,   0,   -,   -,  1001,    -,
+  0x34240000,  0x0d,     -,   ori,    I,   1,   0,   -,   -,  0000,    -,
+  0x0040A020,  0x00,  0x20,   add,    R,   2,   0,   20,   0,   -,    -,
+  0x00408820,  0x00,  0x20,   add,    R,   2,   0,   17,   0,   -,    -,
+  0x012A4820,  0x00,  0x20,   add,    R,   9,   a,   9,   0,   -,    -,
+  0x21290001,  0x08,     -,  addi,    I,   9,   0,   -,   -,  0001,    -,
+  0x0AFFFFFF,  0x02,     -,     j,    J,    -,    -,    -,    -,    -,2ffffff,
+  0x2AC8000A,  0x0a,     -,  slti,    I,   22,   0,   -,   -,  000a,    -,
+  0x2002FFFF,  0x08,     -,  addi,    I,   0,   0,   -,   -,  ffff,    -,
